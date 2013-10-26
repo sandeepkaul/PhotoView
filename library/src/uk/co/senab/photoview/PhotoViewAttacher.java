@@ -388,7 +388,7 @@ public class PhotoViewAttacher implements IPhotoView, View.OnTouchListener,
     }
 
     @Override
-    public final void onFling(float startX, float startY, float velocityX,
+    public void onFling(float startX, float startY, float velocityX,
                               float velocityY) {
         if (DEBUG) {
             LogManager.getLogger().d(
